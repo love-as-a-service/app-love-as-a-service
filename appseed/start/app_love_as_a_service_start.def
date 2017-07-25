@@ -1,0 +1,8 @@
+; app_love_as_a_service_start.def
+
+LIBRARY  "app_love_as_a_service_start"
+; For Win32 DLLs, only EXPORTs really required.
+
+EXPORTS
+app_love_as_a_service_start_get_new_library
+

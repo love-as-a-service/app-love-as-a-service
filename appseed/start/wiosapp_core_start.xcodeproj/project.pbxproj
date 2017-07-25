@@ -1,0 +1,1123 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0751C8561921A9DA0099706E /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0751C8551921A9DA0099706E /* main.mm */; };
+		078C35301921758500354453 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AE24EC11904E95E001AEFFB /* Foundation.framework */; };
+		078C35311921758500354453 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AE24EC31904E95E001AEFFB /* CoreGraphics.framework */; };
+		078C35321921758500354453 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AE24EC51904E95E001AEFFB /* UIKit.framework */; };
+		078C35381921758600354453 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 078C35361921758600354453 /* InfoPlist.strings */; };
+		078C35401921758600354453 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 078C353F1921758600354453 /* Images.xcassets */; };
+		078C35461921758600354453 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AE24EDA1904E95E001AEFFB /* XCTest.framework */; };
+		078C35471921758600354453 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AE24EC11904E95E001AEFFB /* Foundation.framework */; };
+		078C35481921758600354453 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AE24EC51904E95E001AEFFB /* UIKit.framework */; };
+		078C35501921758600354453 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 078C354E1921758600354453 /* InfoPlist.strings */; };
+		078C35521921758600354453 /* wiosapp_core_hellomultiverseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 078C35511921758600354453 /* wiosapp_core_hellomultiverseTests.m */; };
+		078C35B91921766F00354453 /* libbase.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 07011FAF190CA31000C08335 /* libbase.dylib */; };
+		078C35BA1921766F00354453 /* libbasefreeimage.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 07A6C9B3190C90C500859288 /* libbasefreeimage.dylib */; };
+		078C35BB1921766F00354453 /* libbasefreetype.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 07A6CA29190C90C600859288 /* libbasefreetype.dylib */; };
+		078C35BC1921766F00354453 /* libbasemysql.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 078001D2190C9F17000DA332 /* libbasemysql.dylib */; };
+		078C35BD1921766F00354453 /* libcore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 07A6C9BC190C90C500859288 /* libcore.dylib */; };
+		078C35E1192182CE00354453 /* libapp.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0776D1D51921740100F890ED /* libapp.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07011FAC190CA31000C08335 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AA6A4571907B5F0000A1F4A /* base.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9A98A6151771D67E000AE16E;
+			remoteInfo = base;
+		};
+		07011FAE190CA31000C08335 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AA6A4571907B5F0000A1F4A /* base.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9AE24D341904CEFE001AEFFB;
+			remoteInfo = base_ios;
+		};
+		07011FB0190CA31000C08335 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AA6A4571907B5F0000A1F4A /* base.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9AE24D431904CEFE001AEFFB;
+			remoteInfo = base_iosTests;
+		};
+		075295A11918F2DB00C1811D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07F5029C1918E39A0079A8D9 /* draw2d_quartz2d.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A1CFD778154F5EAA007447E2;
+			remoteInfo = draw2d_quartz2d;
+		};
+		075295A31918F2DB00C1811D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07F5029C1918E39A0079A8D9 /* draw2d_quartz2d.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9AA6A23919070F82000A1F4A;
+			remoteInfo = draw2d_quartz2d_ios;
+		};
+		075295A51918F2DB00C1811D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07F5029C1918E39A0079A8D9 /* draw2d_quartz2d.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9AA6A24819070F82000A1F4A;
+			remoteInfo = draw2d_quartz2d_iosTests;
+		};
+		075295AC1918F2DB00C1811D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07F502DA1918E4940079A8D9 /* app_core_hellomultiverse.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9AEB75A316F78DF10085103B;
+			remoteInfo = app_core_hellomultiverse;
+		};
+		075295AE1918F2DB00C1811D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07F502DA1918E4940079A8D9 /* app_core_hellomultiverse.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9AE24E8A1904CFFD001AEFFB;
+			remoteInfo = app_core_hellomultiverse_ios;
+		};
+		075295B01918F2DB00C1811D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07F502DA1918E4940079A8D9 /* app_core_hellomultiverse.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9AE24E991904CFFD001AEFFB;
+			remoteInfo = app_core_hellomultiverse_iosTests;
+		};
+		0776D1D41921740100F890ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0776D1CF1921740100F890ED /* app.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9AE24EC01904E95E001AEFFB;
+			remoteInfo = app;
+		};
+		078001CF190C9F17000DA332 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AA6A47B1907B61C000A1F4A /* basemysql.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9AA5E6D616F7C61B005C45CE;
+			remoteInfo = basemysql;
+		};
+		078001D1190C9F17000DA332 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AA6A47B1907B61C000A1F4A /* basemysql.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9AE24DB21904CF5B001AEFFB;
+			remoteInfo = basemysql_ios;
+		};
+		078001D3190C9F17000DA332 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AA6A47B1907B61C000A1F4A /* basemysql.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9AE24DC11904CF5B001AEFFB;
+			remoteInfo = basemysql_iosTests;
+		};
+		078C35491921758600354453 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A5752A916AAE1D2000CC4EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 078C352E1921758500354453;
+			remoteInfo = wiosapp_core_hellomultiverse;
+		};
+		078C35A61921762700354453 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0776D1CF1921740100F890ED /* app.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 078C3583192175C900354453;
+			remoteInfo = app;
+		};
+		078C35A81921762700354453 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AA6A4571907B5F0000A1F4A /* base.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AE24D331904CEFE001AEFFB;
+			remoteInfo = base_ios;
+		};
+		078C35AA1921762700354453 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AA6A4631907B608000A1F4A /* basefreetype.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AE24D5D1904CF2F001AEFFB;
+			remoteInfo = basefreetype_ios;
+		};
+		078C35AC1921762700354453 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AA6A46F1907B615000A1F4A /* basefreeimage.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AE24D871904CF46001AEFFB;
+			remoteInfo = basefreeimage_ios;
+		};
+		078C35AE1921762700354453 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AA6A47B1907B61C000A1F4A /* basemysql.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AE24DB11904CF5B001AEFFB;
+			remoteInfo = basemysql_ios;
+		};
+		078C35B01921762700354453 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AA6A4871907B628000A1F4A /* core.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AE24DDB1904CF6E001AEFFB;
+			remoteInfo = core_ios;
+		};
+		078C35B21921762700354453 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07F502DA1918E4940079A8D9 /* app_core_hellomultiverse.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AE24E891904CFFD001AEFFB;
+			remoteInfo = app_core_hellomultiverse_ios;
+		};
+		078C35B41921762700354453 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07F5029C1918E39A0079A8D9 /* draw2d_quartz2d.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AA6A23819070F82000A1F4A;
+			remoteInfo = draw2d_quartz2d_ios;
+		};
+		078C35B71921762700354453 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0776D1CF1921740100F890ED /* app.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 078C3591192175CA00354453;
+			remoteInfo = appTests;
+		};
+		07A6C98F190C5F4300859288 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AA6A46F1907B615000A1F4A /* basefreeimage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9AA5E6D616F7C61B005C45CE;
+			remoteInfo = basefreeimage;
+		};
+		07A6C9B2190C90C500859288 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AA6A46F1907B615000A1F4A /* basefreeimage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9AE24D881904CF46001AEFFB;
+			remoteInfo = basefreeimage_ios;
+		};
+		07A6C9B4190C90C500859288 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AA6A46F1907B615000A1F4A /* basefreeimage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9AE24D971904CF46001AEFFB;
+			remoteInfo = basefreeimage_iosTests;
+		};
+		07A6C9B9190C90C500859288 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AA6A4871907B628000A1F4A /* core.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9A8916841751D72100E531ED;
+			remoteInfo = core;
+		};
+		07A6C9BB190C90C500859288 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AA6A4871907B628000A1F4A /* core.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9AE24DDC1904CF6E001AEFFB;
+			remoteInfo = core_ios;
+		};
+		07A6C9BD190C90C500859288 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AA6A4871907B628000A1F4A /* core.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9AE24DEB1904CF6E001AEFFB;
+			remoteInfo = core_iosTests;
+		};
+		07A6CA26190C90C600859288 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AA6A4631907B608000A1F4A /* basefreetype.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9A1B358C16A2D7A500875A94;
+			remoteInfo = basefreetype;
+		};
+		07A6CA28190C90C600859288 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AA6A4631907B608000A1F4A /* basefreetype.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9AE24D5E1904CF2F001AEFFB;
+			remoteInfo = basefreetype_ios;
+		};
+		07A6CA2A190C90C600859288 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AA6A4631907B608000A1F4A /* basefreetype.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9AE24D6D1904CF30001AEFFB;
+			remoteInfo = basefreetype_iosTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0751C8551921A9DA0099706E /* main.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = SOURCE_ROOT; };
+		0776D1CF1921740100F890ED /* app.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = app.xcodeproj; path = ../../../nodeapp/appseed/app/app.xcodeproj; sourceTree = "<group>"; };
+		078C352F1921758500354453 /* wiosapp_core_hellomultiverse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wiosapp_core_hellomultiverse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		078C35351921758600354453 /* wiosapp_core_hellomultiverse-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "wiosapp_core_hellomultiverse-Info.plist"; sourceTree = "<group>"; };
+		078C35371921758600354453 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		078C353F1921758600354453 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		078C35451921758600354453 /* wiosapp_core_hellomultiverseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wiosapp_core_hellomultiverseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		078C354D1921758600354453 /* wiosapp_core_hellomultiverseTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "wiosapp_core_hellomultiverseTests-Info.plist"; sourceTree = "<group>"; };
+		078C354F1921758600354453 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		078C35511921758600354453 /* wiosapp_core_hellomultiverseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wiosapp_core_hellomultiverseTests.m; sourceTree = "<group>"; };
+		07B5903518866047002C6FEC /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		07F5029C1918E39A0079A8D9 /* draw2d_quartz2d.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = draw2d_quartz2d.xcodeproj; path = ../../../nodeapp/appseed/draw2d_quartz2d/draw2d_quartz2d.xcodeproj; sourceTree = SOURCE_ROOT; };
+		07F502DA1918E4940079A8D9 /* app_core_hellomultiverse.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = app_core_hellomultiverse.xcodeproj; sourceTree = SOURCE_ROOT; };
+		9A5752B616AAE1D2000CC4EF /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		9A5752B916AAE1D2000CC4EF /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		9A5752BA16AAE1D2000CC4EF /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		9A5752BB16AAE1D2000CC4EF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9AA6A2B0190721C7000A1F4A /* libbase_ios.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libbase_ios.dylib; path = "../../../app/appseed/base/build/Debug-iphoneos/libbase_ios.dylib"; sourceTree = "<group>"; };
+		9AA6A36F190759B1000A1F4A /* libbasefreeimage_ios.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libbasefreeimage_ios.dylib; path = "../../../app/thirdparty/appseed/freeimage/build/Debug-iphoneos/libbasefreeimage_ios.dylib"; sourceTree = "<group>"; };
+		9AA6A370190759B1000A1F4A /* libbasefreetype_ios.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libbasefreetype_ios.dylib; path = "../../../app/thirdparty/appseed/freetype/build/Debug-iphoneos/libbasefreetype_ios.dylib"; sourceTree = "<group>"; };
+		9AA6A371190759B1000A1F4A /* libbasemysql_ios.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libbasemysql_ios.dylib; path = "../../../app/thirdparty/appseed/mysql/build/Debug-iphoneos/libbasemysql_ios.dylib"; sourceTree = "<group>"; };
+		9AA6A372190759B1000A1F4A /* libcore_ios.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcore_ios.dylib; path = "../../../app/appseed/core/build/Debug-iphoneos/libcore_ios.dylib"; sourceTree = "<group>"; };
+		9AA6A44D1907B5BD000A1F4A /* libbase.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libbase.dylib; path = "../../../app/appseed/base/build/Release-iphoneos/libbase.dylib"; sourceTree = "<group>"; };
+		9AA6A44E1907B5BD000A1F4A /* libbasefreeimage.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libbasefreeimage.dylib; path = "../../../app/thirdparty/appseed/freeimage/build/Debug-iphoneos/libbasefreeimage.dylib"; sourceTree = "<group>"; };
+		9AA6A44F1907B5BD000A1F4A /* libbasefreetype.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libbasefreetype.dylib; path = "../../../app/thirdparty/appseed/freetype/build/Debug-iphoneos/libbasefreetype.dylib"; sourceTree = "<group>"; };
+		9AA6A4501907B5BD000A1F4A /* libbasemysql.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libbasemysql.dylib; path = "../../../app/thirdparty/appseed/mysql/build/Debug-iphoneos/libbasemysql.dylib"; sourceTree = "<group>"; };
+		9AA6A4511907B5BD000A1F4A /* libcore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcore.dylib; path = "../../../app/appseed/core/build/Debug-iphoneos/libcore.dylib"; sourceTree = "<group>"; };
+		9AA6A4571907B5F0000A1F4A /* base.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = base.xcodeproj; path = ../../../app/appseed/base/base.xcodeproj; sourceTree = SOURCE_ROOT; };
+		9AA6A4631907B608000A1F4A /* basefreetype.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = basefreetype.xcodeproj; path = ../../../app/thirdparty/appseed/freetype/basefreetype.xcodeproj; sourceTree = SOURCE_ROOT; };
+		9AA6A46F1907B615000A1F4A /* basefreeimage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = basefreeimage.xcodeproj; path = ../../../app/thirdparty/appseed/freeimage/basefreeimage.xcodeproj; sourceTree = SOURCE_ROOT; };
+		9AA6A47B1907B61C000A1F4A /* basemysql.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = basemysql.xcodeproj; path = ../../../app/thirdparty/appseed/mysql/basemysql.xcodeproj; sourceTree = SOURCE_ROOT; };
+		9AA6A4871907B628000A1F4A /* core.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = core.xcodeproj; path = ../../../app/appseed/core/core.xcodeproj; sourceTree = SOURCE_ROOT; };
+		9AE24EC11904E95E001AEFFB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9AE24EC31904E95E001AEFFB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9AE24EC51904E95E001AEFFB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		9AE24EDA1904E95E001AEFFB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		078C352C1921758500354453 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				078C35321921758500354453 /* UIKit.framework in Frameworks */,
+				078C35311921758500354453 /* CoreGraphics.framework in Frameworks */,
+				078C35301921758500354453 /* Foundation.framework in Frameworks */,
+				078C35B91921766F00354453 /* libbase.dylib in Frameworks */,
+				078C35BA1921766F00354453 /* libbasefreeimage.dylib in Frameworks */,
+				078C35BB1921766F00354453 /* libbasefreetype.dylib in Frameworks */,
+				078C35BC1921766F00354453 /* libbasemysql.dylib in Frameworks */,
+				078C35BD1921766F00354453 /* libcore.dylib in Frameworks */,
+				078C35E1192182CE00354453 /* libapp.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		078C35421921758600354453 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				078C35461921758600354453 /* XCTest.framework in Frameworks */,
+				078C35481921758600354453 /* UIKit.framework in Frameworks */,
+				078C35471921758600354453 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07011F9C190CA30F00C08335 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07011FAD190CA31000C08335 /* libbase.dylib */,
+				07011FAF190CA31000C08335 /* libbase.dylib */,
+				07011FB1190CA31000C08335 /* base_iosTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		075295921918F2DB00C1811D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				075295A21918F2DB00C1811D /* libdraw2d_quartz2d.dylib */,
+				075295A41918F2DB00C1811D /* libdraw2d_quartz2d.dylib */,
+				075295A61918F2DB00C1811D /* draw2d_quartz2d_iosTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		075295A71918F2DB00C1811D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				075295AD1918F2DB00C1811D /* libapp_core_hellomultiverse.dylib */,
+				075295AF1918F2DB00C1811D /* libapp_core_hellomultiverse..dylib */,
+				075295B11918F2DB00C1811D /* app_core_hellomultiverse_iosTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0776D1D01921740100F890ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0776D1D51921740100F890ED /* libapp.dylib */,
+				078C35B81921762700354453 /* appTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		078001C0190C9F17000DA332 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				078001D0190C9F17000DA332 /* libbasemysql.dylib */,
+				078001D2190C9F17000DA332 /* libbasemysql.dylib */,
+				078001D4190C9F17000DA332 /* basemysql_iosTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		078C35331921758500354453 /* wiosapp_core_hellomultiverse */ = {
+			isa = PBXGroup;
+			children = (
+				0751C8551921A9DA0099706E /* main.mm */,
+				078C353F1921758600354453 /* Images.xcassets */,
+				078C35341921758600354453 /* Supporting Files */,
+			);
+			path = wiosapp_core_hellomultiverse;
+			sourceTree = "<group>";
+		};
+		078C35341921758600354453 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				078C35351921758600354453 /* wiosapp_core_hellomultiverse-Info.plist */,
+				078C35361921758600354453 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		078C354B1921758600354453 /* wiosapp_core_hellomultiverseTests */ = {
+			isa = PBXGroup;
+			children = (
+				078C35511921758600354453 /* wiosapp_core_hellomultiverseTests.m */,
+				078C354C1921758600354453 /* Supporting Files */,
+			);
+			path = wiosapp_core_hellomultiverseTests;
+			sourceTree = "<group>";
+		};
+		078C354C1921758600354453 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				078C354D1921758600354453 /* wiosapp_core_hellomultiverseTests-Info.plist */,
+				078C354E1921758600354453 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		07A6C987190C5F4300859288 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07A6C990190C5F4300859288 /* libbasefreeimage.dylib */,
+				07A6C9B3190C90C500859288 /* libbasefreeimage.dylib */,
+				07A6C9B5190C90C500859288 /* basefreeimage_iosTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07A6C9A1190C90C400859288 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07A6C9BA190C90C500859288 /* libcore.dylib */,
+				07A6C9BC190C90C500859288 /* libcore.dylib */,
+				07A6C9BE190C90C500859288 /* core_iosTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07A6C9EC190C90C600859288 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07A6CA27190C90C600859288 /* libbasefreetype.dylib */,
+				07A6CA29190C90C600859288 /* libbasefreetype.dylib */,
+				07A6CA2B190C90C600859288 /* basefreetype_iosTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A5752A716AAE1D2000CC4EF = {
+			isa = PBXGroup;
+			children = (
+				0776D1CF1921740100F890ED /* app.xcodeproj */,
+				07F502DA1918E4940079A8D9 /* app_core_hellomultiverse.xcodeproj */,
+				07F5029C1918E39A0079A8D9 /* draw2d_quartz2d.xcodeproj */,
+				9AA6A4571907B5F0000A1F4A /* base.xcodeproj */,
+				9AA6A4631907B608000A1F4A /* basefreetype.xcodeproj */,
+				9AA6A46F1907B615000A1F4A /* basefreeimage.xcodeproj */,
+				9AA6A47B1907B61C000A1F4A /* basemysql.xcodeproj */,
+				9AA6A4871907B628000A1F4A /* core.xcodeproj */,
+				078C35331921758500354453 /* wiosapp_core_hellomultiverse */,
+				078C354B1921758600354453 /* wiosapp_core_hellomultiverseTests */,
+				9A5752B516AAE1D2000CC4EF /* Frameworks */,
+				9A5752B316AAE1D2000CC4EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9A5752B316AAE1D2000CC4EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				078C352F1921758500354453 /* wiosapp_core_hellomultiverse.app */,
+				078C35451921758600354453 /* wiosapp_core_hellomultiverseTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A5752B516AAE1D2000CC4EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9AA6A44D1907B5BD000A1F4A /* libbase.dylib */,
+				9AA6A44E1907B5BD000A1F4A /* libbasefreeimage.dylib */,
+				9AA6A44F1907B5BD000A1F4A /* libbasefreetype.dylib */,
+				9AA6A4501907B5BD000A1F4A /* libbasemysql.dylib */,
+				9AA6A4511907B5BD000A1F4A /* libcore.dylib */,
+				9AA6A36F190759B1000A1F4A /* libbasefreeimage_ios.dylib */,
+				9AA6A370190759B1000A1F4A /* libbasefreetype_ios.dylib */,
+				9AA6A371190759B1000A1F4A /* libbasemysql_ios.dylib */,
+				9AA6A372190759B1000A1F4A /* libcore_ios.dylib */,
+				9AA6A2B0190721C7000A1F4A /* libbase_ios.dylib */,
+				9A5752B616AAE1D2000CC4EF /* Cocoa.framework */,
+				07B5903518866047002C6FEC /* CoreFoundation.framework */,
+				9AE24EC11904E95E001AEFFB /* Foundation.framework */,
+				9AE24EC31904E95E001AEFFB /* CoreGraphics.framework */,
+				9AE24EC51904E95E001AEFFB /* UIKit.framework */,
+				9AE24EDA1904E95E001AEFFB /* XCTest.framework */,
+				9A5752B816AAE1D2000CC4EF /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9A5752B816AAE1D2000CC4EF /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A5752B916AAE1D2000CC4EF /* AppKit.framework */,
+				9A5752BA16AAE1D2000CC4EF /* CoreData.framework */,
+				9A5752BB16AAE1D2000CC4EF /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		078C352E1921758500354453 /* wiosapp_core_hellomultiverse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 078C35741921758600354453 /* Build configuration list for PBXNativeTarget "wiosapp_core_hellomultiverse" */;
+			buildPhases = (
+				078C352B1921758500354453 /* Sources */,
+				078C352C1921758500354453 /* Frameworks */,
+				078C352D1921758500354453 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				078C35A91921762700354453 /* PBXTargetDependency */,
+				078C35AB1921762700354453 /* PBXTargetDependency */,
+				078C35AD1921762700354453 /* PBXTargetDependency */,
+				078C35AF1921762700354453 /* PBXTargetDependency */,
+				078C35B11921762700354453 /* PBXTargetDependency */,
+				078C35A71921762700354453 /* PBXTargetDependency */,
+				078C35B31921762700354453 /* PBXTargetDependency */,
+				078C35B51921762700354453 /* PBXTargetDependency */,
+			);
+			name = wiosapp_core_hellomultiverse;
+			productName = wiosapp_core_hellomultiverse;
+			productReference = 078C352F1921758500354453 /* wiosapp_core_hellomultiverse.app */;
+			productType = "com.apple.product-type.application";
+		};
+		078C35441921758600354453 /* wiosapp_core_hellomultiverseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 078C35751921758600354453 /* Build configuration list for PBXNativeTarget "wiosapp_core_hellomultiverseTests" */;
+			buildPhases = (
+				078C35411921758600354453 /* Sources */,
+				078C35421921758600354453 /* Frameworks */,
+				078C35431921758600354453 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				078C354A1921758600354453 /* PBXTargetDependency */,
+			);
+			name = wiosapp_core_hellomultiverseTests;
+			productName = wiosapp_core_hellomultiverseTests;
+			productReference = 078C35451921758600354453 /* wiosapp_core_hellomultiverseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A5752A916AAE1D2000CC4EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ca2;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Camilo Sasuke Tsumanuma";
+				TargetAttributes = {
+					078C35441921758600354453 = {
+						TestTargetID = 078C352E1921758500354453;
+					};
+				};
+			};
+			buildConfigurationList = 9A5752AC16AAE1D2000CC4EF /* Build configuration list for PBXProject "wiosapp_core_hellomultiverse" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9A5752A716AAE1D2000CC4EF;
+			productRefGroup = 9A5752B316AAE1D2000CC4EF /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 0776D1D01921740100F890ED /* Products */;
+					ProjectRef = 0776D1CF1921740100F890ED /* app.xcodeproj */;
+				},
+				{
+					ProductGroup = 075295A71918F2DB00C1811D /* Products */;
+					ProjectRef = 07F502DA1918E4940079A8D9 /* app_core_hellomultiverse.xcodeproj */;
+				},
+				{
+					ProductGroup = 07011F9C190CA30F00C08335 /* Products */;
+					ProjectRef = 9AA6A4571907B5F0000A1F4A /* base.xcodeproj */;
+				},
+				{
+					ProductGroup = 07A6C987190C5F4300859288 /* Products */;
+					ProjectRef = 9AA6A46F1907B615000A1F4A /* basefreeimage.xcodeproj */;
+				},
+				{
+					ProductGroup = 07A6C9EC190C90C600859288 /* Products */;
+					ProjectRef = 9AA6A4631907B608000A1F4A /* basefreetype.xcodeproj */;
+				},
+				{
+					ProductGroup = 078001C0190C9F17000DA332 /* Products */;
+					ProjectRef = 9AA6A47B1907B61C000A1F4A /* basemysql.xcodeproj */;
+				},
+				{
+					ProductGroup = 07A6C9A1190C90C400859288 /* Products */;
+					ProjectRef = 9AA6A4871907B628000A1F4A /* core.xcodeproj */;
+				},
+				{
+					ProductGroup = 075295921918F2DB00C1811D /* Products */;
+					ProjectRef = 07F5029C1918E39A0079A8D9 /* draw2d_quartz2d.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				078C352E1921758500354453 /* wiosapp_core_hellomultiverse */,
+				078C35441921758600354453 /* wiosapp_core_hellomultiverseTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		07011FAD190CA31000C08335 /* libbase.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libbase.dylib;
+			remoteRef = 07011FAC190CA31000C08335 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		07011FAF190CA31000C08335 /* libbase.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libbase.dylib;
+			remoteRef = 07011FAE190CA31000C08335 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		07011FB1190CA31000C08335 /* base_iosTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = base_iosTests.xctest;
+			remoteRef = 07011FB0190CA31000C08335 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		075295A21918F2DB00C1811D /* libdraw2d_quartz2d.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libdraw2d_quartz2d.dylib;
+			remoteRef = 075295A11918F2DB00C1811D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		075295A41918F2DB00C1811D /* libdraw2d_quartz2d.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libdraw2d_quartz2d.dylib;
+			remoteRef = 075295A31918F2DB00C1811D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		075295A61918F2DB00C1811D /* draw2d_quartz2d_iosTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = draw2d_quartz2d_iosTests.xctest;
+			remoteRef = 075295A51918F2DB00C1811D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		075295AD1918F2DB00C1811D /* libapp_core_hellomultiverse.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libapp_core_hellomultiverse.dylib;
+			remoteRef = 075295AC1918F2DB00C1811D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		075295AF1918F2DB00C1811D /* libapp_core_hellomultiverse..dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libapp_core_hellomultiverse..dylib;
+			remoteRef = 075295AE1918F2DB00C1811D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		075295B11918F2DB00C1811D /* app_core_hellomultiverse_iosTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = app_core_hellomultiverse_iosTests.xctest;
+			remoteRef = 075295B01918F2DB00C1811D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0776D1D51921740100F890ED /* libapp.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libapp.dylib;
+			remoteRef = 0776D1D41921740100F890ED /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		078001D0190C9F17000DA332 /* libbasemysql.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libbasemysql.dylib;
+			remoteRef = 078001CF190C9F17000DA332 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		078001D2190C9F17000DA332 /* libbasemysql.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libbasemysql.dylib;
+			remoteRef = 078001D1190C9F17000DA332 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		078001D4190C9F17000DA332 /* basemysql_iosTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = basemysql_iosTests.xctest;
+			remoteRef = 078001D3190C9F17000DA332 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		078C35B81921762700354453 /* appTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = appTests.xctest;
+			remoteRef = 078C35B71921762700354453 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		07A6C990190C5F4300859288 /* libbasefreeimage.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libbasefreeimage.dylib;
+			remoteRef = 07A6C98F190C5F4300859288 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		07A6C9B3190C90C500859288 /* libbasefreeimage.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libbasefreeimage.dylib;
+			remoteRef = 07A6C9B2190C90C500859288 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		07A6C9B5190C90C500859288 /* basefreeimage_iosTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = basefreeimage_iosTests.xctest;
+			remoteRef = 07A6C9B4190C90C500859288 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		07A6C9BA190C90C500859288 /* libcore.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libcore.dylib;
+			remoteRef = 07A6C9B9190C90C500859288 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		07A6C9BC190C90C500859288 /* libcore.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libcore.dylib;
+			remoteRef = 07A6C9BB190C90C500859288 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		07A6C9BE190C90C500859288 /* core_iosTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = core_iosTests.xctest;
+			remoteRef = 07A6C9BD190C90C500859288 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		07A6CA27190C90C600859288 /* libbasefreetype.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libbasefreetype.dylib;
+			remoteRef = 07A6CA26190C90C600859288 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		07A6CA29190C90C600859288 /* libbasefreetype.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libbasefreetype.dylib;
+			remoteRef = 07A6CA28190C90C600859288 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		07A6CA2B190C90C600859288 /* basefreetype_iosTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = basefreetype_iosTests.xctest;
+			remoteRef = 07A6CA2A190C90C600859288 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		078C352D1921758500354453 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				078C35381921758600354453 /* InfoPlist.strings in Resources */,
+				078C35401921758600354453 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		078C35431921758600354453 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				078C35501921758600354453 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		078C352B1921758500354453 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0751C8561921A9DA0099706E /* main.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		078C35411921758600354453 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				078C35521921758600354453 /* wiosapp_core_hellomultiverseTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		078C354A1921758600354453 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 078C352E1921758500354453 /* wiosapp_core_hellomultiverse */;
+			targetProxy = 078C35491921758600354453 /* PBXContainerItemProxy */;
+		};
+		078C35A71921762700354453 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = app;
+			targetProxy = 078C35A61921762700354453 /* PBXContainerItemProxy */;
+		};
+		078C35A91921762700354453 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = base_ios;
+			targetProxy = 078C35A81921762700354453 /* PBXContainerItemProxy */;
+		};
+		078C35AB1921762700354453 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = basefreetype_ios;
+			targetProxy = 078C35AA1921762700354453 /* PBXContainerItemProxy */;
+		};
+		078C35AD1921762700354453 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = basefreeimage_ios;
+			targetProxy = 078C35AC1921762700354453 /* PBXContainerItemProxy */;
+		};
+		078C35AF1921762700354453 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = basemysql_ios;
+			targetProxy = 078C35AE1921762700354453 /* PBXContainerItemProxy */;
+		};
+		078C35B11921762700354453 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = core_ios;
+			targetProxy = 078C35B01921762700354453 /* PBXContainerItemProxy */;
+		};
+		078C35B31921762700354453 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = app_core_hellomultiverse_ios;
+			targetProxy = 078C35B21921762700354453 /* PBXContainerItemProxy */;
+		};
+		078C35B51921762700354453 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = draw2d_quartz2d_ios;
+			targetProxy = 078C35B41921762700354453 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		078C35361921758600354453 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				078C35371921758600354453 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		078C354E1921758600354453 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				078C354F1921758600354453 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		078C35531921758600354453 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "wiosapp_core_hellomultiverse/wiosapp_core_hellomultiverse-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		078C35541921758600354453 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_NS_ASSERTIONS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				INFOPLIST_FILE = "wiosapp_core_hellomultiverse/wiosapp_core_hellomultiverse-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		078C35551921758600354453 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/wiosapp_core_hellomultiverse.app/wiosapp_core_hellomultiverse";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "wiosapp_core_hellomultiverse/wiosapp_core_hellomultiverse-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "wiosapp_core_hellomultiverseTests/wiosapp_core_hellomultiverseTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		078C35561921758600354453 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/wiosapp_core_hellomultiverse.app/wiosapp_core_hellomultiverse";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "wiosapp_core_hellomultiverse/wiosapp_core_hellomultiverse-Prefix.pch";
+				INFOPLIST_FILE = "wiosapp_core_hellomultiverseTests/wiosapp_core_hellomultiverseTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		9A5752CE16AAE1D3000CC4EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ANALYZER_DEADCODE_DEADSTORES = NO;
+				CLANG_ANALYZER_MEMORY_MANAGEMENT = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(WorkspaceDir)/../../../app/thirdparty/include",
+					"$(WorkspaceDir)/../../../nodeapp/thirdparty/include",
+				);
+				INSTALL_PATH = /Applications;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(TARGET_BUILD_DIR)\"",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(PROJECT_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(WorkspaceDir)/../../../include $(WorkspaceDir)/../../../app/include . .. $(WorkspaceDir)/../../.. $(WorkspaceDir)/../../../app $(WorkspaceDir)/../../../app/appseed $(WorkspaceDir)/../../../app/appseed/core $(WorkspaceDir)/../../../app/appseed/base $(WorkspaceDir)/../.. $(WorkspaceDir)/../../thirdparty/include $(WorkspaceDir)/../../../app/thirdparty/include $(WorkspaceDir)/../../appseed $(WorkspaceDir)/../../../app/thirdparty/appseed";
+				WorkspaceDir = "$(SRCROOT)/../../../nodeapp/seed/metaseed";
+			};
+			name = Debug;
+		};
+		9A5752CF16AAE1D3000CC4EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ANALYZER_DEADCODE_DEADSTORES = NO;
+				CLANG_ANALYZER_MEMORY_MANAGEMENT = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(WorkspaceDir)/../../../app/thirdparty/include",
+					"$(WorkspaceDir)/../../../nodeapp/thirdparty/include",
+				);
+				INSTALL_PATH = /Applications;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(TARGET_BUILD_DIR)\"",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(PROJECT_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(WorkspaceDir)/../../../include $(WorkspaceDir)/../../../app/include . .. $(WorkspaceDir)/../../.. $(WorkspaceDir)/../../../app $(WorkspaceDir)/../../../app/appseed $(WorkspaceDir)/../../../app/appseed/core $(WorkspaceDir)/../../../app/appseed/base $(WorkspaceDir)/../.. $(WorkspaceDir)/../../thirdparty/include $(WorkspaceDir)/../../../app/thirdparty/include $(WorkspaceDir)/../../appseed $(WorkspaceDir)/../../../app/thirdparty/appseed";
+				VALIDATE_PRODUCT = YES;
+				WorkspaceDir = "$(SRCROOT)/../../../nodeapp/seed/metaseed";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		078C35741921758600354453 /* Build configuration list for PBXNativeTarget "wiosapp_core_hellomultiverse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				078C35531921758600354453 /* Debug */,
+				078C35541921758600354453 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		078C35751921758600354453 /* Build configuration list for PBXNativeTarget "wiosapp_core_hellomultiverseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				078C35551921758600354453 /* Debug */,
+				078C35561921758600354453 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A5752AC16AAE1D2000CC4EF /* Build configuration list for PBXProject "wiosapp_core_hellomultiverse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A5752CE16AAE1D3000CC4EF /* Debug */,
+				9A5752CF16AAE1D3000CC4EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A5752A916AAE1D2000CC4EF /* Project object */;
+}
